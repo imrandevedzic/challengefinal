@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.tijdlijn{
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 700px;
+  position: relative;
+}
+.tijdlijn-content-title{
+  font-weight: normal;
+  font-size: 59px;
+  margin: -10px 0 0 0;
+  transition: 0.4s;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-family: tahoma;
+  color:white;
+  }
+  .ijdlijn-content-desc{
+    margin: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: rgba(255,255,255,.7);
+    font-family: tahoma;
+    font-weight: normal;
+    line-height: 25px;
+
+  }
+body{
+  background-color: #F8DDDD;
+}
